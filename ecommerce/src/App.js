@@ -1,9 +1,25 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
+
+import {Footer, Blog, Possibility, Feature, Header} from './containers';
+import {CTA, Brand, Navbar} from './components';
+import './App.css'
+
+
 
 const App = () => {
   return (
-    <div>
-        <h1>PC Part Farm</h1>
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <Feature />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
     </div>
   )
 }
