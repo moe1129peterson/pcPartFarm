@@ -1,0 +1,24 @@
+.pcf_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 6rem
+}
+
+.pcf_navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pcf_navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.pcf_navbar-links_logo img{
+    width: 96px;
+    height: 45px;
+
+}
