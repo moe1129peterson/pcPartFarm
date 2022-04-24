@@ -1,0 +1,25 @@
+.pcf_product-cpu{
+    position: absolute;
+    width: 419px;
+    height: 277px;
+    left: 70px;
+    top: 369px;
+
+}
+
+.pcf_product-gpu{
+    position: absolute;
+    width: 420px;
+    height: 277px;
+    left: 510px;
+    top: 369px;
+}    
+   
+.pcf_product-mobo{
+    position: absolute;
+    width: 419px;
+    height: 277px;
+    left: 951px;
+    top: 369px;
+
+}

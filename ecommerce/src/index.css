@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-    --font-family: 'Montserrat';
-    --color-bg: #05386B;
-    --color-footer: #05386B;
+    --font-family: 'Manrope', sans-serif;
+    --color-bg: #ffffff;
+    --color-footer: #2d595c;
     --color-text: #ffffff ;
 
 }

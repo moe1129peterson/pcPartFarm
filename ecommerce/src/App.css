@@ -16,7 +16,8 @@ a {
 }
 
 .section_padding {
-    padding: 4rem 6rem;
+    padding: 0;
+    align-items: center;
 }
 
 .section_margin {
