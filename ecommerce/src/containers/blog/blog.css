@@ -1,28 +1,22 @@
-.pcf_product-cpu{
-    position: absolute;
-    width: 419px;
-    height: 277px;
-    left: 70px;
-    top: 369px;
-    cursor: pointer;
+.pcf_product-container{
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
-.pcf_product-gpu{
-    position: absolute;
-    width: 420px;
-    height: 277px;
-    left: 510px;
-    top: 369px;
+.product-wrap{
+    display: flex;
+    justify-content: space-between;
     cursor: pointer;
-}    
-   
-.pcf_product-mobo{
-    position: absolute;
-    width: 419px;
-    height: 277px;
-    left: 951px;
-    top: 369px;
-    cursor: pointer;
+}
+
+.pcf_product-img{
+    width: 100%;
+    margin: 50px 0;
+}
+.pcf-list{
+    max-width: 500px;
+    margin-right: 50px;
 
 }

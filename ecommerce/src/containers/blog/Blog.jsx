@@ -8,14 +8,19 @@ import MOBO from '../../assets/MOBO.png'
 const Blog = () => {
   return (
     <div className='pcf_product-container'>
-      <div className='pcf_product-cpu'>
-        <img src={CPU} alt='cpu' />
+      <div className='product-wrap'>
+
+      <div className='pcf-list'>
+        <img src={CPU} className='pcf_product-img' alt='cpu' />
       </div>
-      <div className='pcf_product-gpu'>
-        <img src={GPU} alt='cpu' />
+
+      <div className='pcf-list'>
+        <img src={GPU} className='pcf_product-img' alt='gpu' />
       </div>
-      <div className='pcf_product-mobo'>
-        <img src={MOBO} alt='cpu' />
+
+      <div className='pcf-list'>
+        <img src={MOBO} className='pcf_product-img' alt='mobo' />
+      </div>
       </div>
     </div>
   )
