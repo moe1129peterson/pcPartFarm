@@ -6,6 +6,7 @@ import React, {useState} from 'react';
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import logo from '../../assets/logo.png'
 import './navbar.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Menu = () => (
   <>
