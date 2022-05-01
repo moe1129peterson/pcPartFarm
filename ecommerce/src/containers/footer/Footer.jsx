@@ -5,13 +5,15 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <div className='pcf_footer section-padding'>
-      <div className='pcf_footer-header'>
-        <h1 className='footer-text'></h1>
+    <div>
+      <div className='pcf_footer section-padding'>
+        <div className='pcf_footer-heading'>
+          <h1 className='pcf_text'>Do you want to subscribe out news?</h1>
+        </div>
       </div>
-      
     </div>
   )
 }
 
 export default Footer
+

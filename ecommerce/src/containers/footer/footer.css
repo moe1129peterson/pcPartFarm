@@ -1,0 +1,12 @@
+.pcf_text{
+    color: var(--color-text);
+    font-family: var(--font-family);
+}
+
+.pcf_footer{
+    width: 100%;
+    padding: 2rem 3rem;
+    background-color: var(--color-footer);
+    color: var(--color-text);
+    font-family: var(--font-family);
+}
