@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import {Footer, Blog, Possibility, Feature, Header} from './containers';
 import {CTA, Brand, Navbar} from './components';
-import {Cpu} from './pages';
+import {Cpu, Gpu} from './pages';
 import './App.css'
 
 
@@ -26,7 +26,10 @@ const App = () => {
             </Route >
             <Route path='/cpu'>
               <Cpu />
-            </Route>
+            </Route >
+            <Route path='/gpu'>
+              <Gpu />
+            </Route >
           </Switch>
         </div>
       </div>

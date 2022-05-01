@@ -1,51 +1,51 @@
-.cpu-content{
+.gpu-content{
     max-width: 1040px;
     margin-right: auto;
     margin-left: auto;
 
 }
 
-.cpu{
+.gpu{
     font-family: var(--font-family);
     font-size: 42px;
     font-weight: bold;
     text-align: center;
 }
 
-.cpu-wrap{
+.gpu-wrap{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     
 }
 
-.cpu-listImage{
+.gpu-listImage{
     width: 100%;
     margin: 50px 0;
 }
-.cpu-list{
+.gpu-list{
     margin-right: 50px;
     max-width: 200px;
     
 
 }
 
-/* .cpu-list:nth-child(3n){
+/* .gpu-list:nth-child(3n){
 
     margin-right: 0;
 
 } */
-.cpu-listTitle{
+.gpu-listTitle{
     font-size: 20px;
     text-align: center;
     margin: 30px 0;
     
 }
-.cpu-listPrice{
+.gpu-listPrice{
     font-size: 20px;
     font-weight: bold;
 }
-.cpu-listText{
+.gpu-listText{
     font-size: 20px;
     line-height: 1.3
     ;
