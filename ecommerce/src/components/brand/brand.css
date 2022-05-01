@@ -1,14 +1,20 @@
 .container_review{
     text-align: center;
-    font-size: 64px;
+    padding: 5rem;
+}
+
+.review{
     font-family: var(--font-family);
-    padding: 10rem 0;
+    font-size: 64px;
+
 }
 
 .review_wrap{
     position: relative;
-    max-width: 700px;
+    max-width: 1300PX;
     margin: 0 auto;
+    background-color:#D8AD5D80;
+    
     
 
 }
@@ -16,9 +22,31 @@
     width: 100%;
     height: fit-content;
     padding: 3rem;
-    background-color:#D8AD5D80 50%;
+
     border-radius: 12px;
     margin-top: 5rem;
-
     
 }
+
+.arrows{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+svg{
+    width: 30px;
+    pointer-events: none;
+}
+
+.next, .prev{
+    margin: 0 0.5rem; 
+    width: fit-content;
+    background-color: #D8AD5D80;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+

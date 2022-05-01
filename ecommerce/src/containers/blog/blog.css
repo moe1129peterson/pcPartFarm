@@ -2,14 +2,13 @@
     max-width: 1300px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #ffff;
 
 }
 
 .product-wrap{
     display: flex;
-    justify-content: space-between;
     cursor: pointer;
+    justify-content: space-between;
 }
 
 .pcf_product-img{
@@ -18,6 +17,5 @@
 }
 .pcf-list{
     max-width: 500px;
-    margin-right: 50px;
-
+    margin: 20px
 }
