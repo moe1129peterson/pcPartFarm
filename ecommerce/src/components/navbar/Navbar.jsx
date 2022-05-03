@@ -56,7 +56,9 @@ const Navbar = () => {
             <Menu />
             <div className='pcf_navbar-menu_container-links-sign'>
             <p>Sign in</p>
+            <Link to ='/cart' className='cart'>
             <button type='button'>Cart</button>
+            </Link>
             </div>
             </div>
           ) }

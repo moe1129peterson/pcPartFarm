@@ -1,24 +1,25 @@
 /* eslint-disable react/jsx-no-undef */
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React, {useState} from 'react'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import data from '../../ecommerce/src/assets/data/cpu'
 import {Footer, Blog, Possibility, Feature, Header} from './containers';
 import {CTA, Brand, Navbar} from './components';
-import {Cpu, Gpu} from './pages';
+import {Cpu, Gpu, Cart, Routes} from './pages';
 import './App.css'
 
 
 
 const App = () => {
+  const [cartItems, setCartItems] = useState([]);
+  
   return (
     <Router>
       <div className="App">
         <div className="gradient__bg">
           <Navbar />
-          <Header />     
-          {/* <Brand /> */}
+          <Header />  
         </div>
         <div className='content'>
           <Switch>
@@ -31,6 +32,9 @@ const App = () => {
             <Route path='/gpu'>
               <Gpu />
             </Route >
+            <Route path='/cart' exact>
+              <Cart cartItems={cartItems}/>
+            </Route>
           </Switch>
         </div>
         {/* <Review /> */}
