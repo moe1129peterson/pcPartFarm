@@ -1,14 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './cpu.css'; 
 // eslint-disable-next-line 
-import data from '../../assets/data/cpu'
+import data from '../../assets/data/cpu';
 import ryzen5 from '../../assets/ryzen5-5600.jpg';
 import ryzen7 from '../../assets/ryzen7-5800.jpg';
 import ryzen9 from '../../assets/ryzen9-5900.jpg';
 import ryzen95950 from '../../assets/ryzen9-5950.jpg';
-import price from '../../assets/data/cpu'
+// import price from '../../assets/data/cpu'
 
-const Cpu = (cpuItems) => {
+const Cpu = () => {
+  const [ activeIndex] = useState(0); 
+  const activeSlide = data[activeIndex];
     return (
 
     //   <div className='cpu-items'>
@@ -34,7 +36,7 @@ const Cpu = (cpuItems) => {
         <div className='cpu-list'>
           <img src={ryzen5} className='cpu-listImage' alt='ryzen5-5600' />
           <h2 className='cpu-listTitle'>cpu</h2>
-          <h3 className='cpu-listPrice' src={price} alt='ryzen5-5600'/>
+          <h3 className='cpu-listPrice'>${activeSlide.price}</h3>
           <p className='cpu-listText'>AMD's fastest 6 core processor for mainstream desktop, with 12 processing threads</p>
           <button className='add-button'>Add to Cart</button>
         </div>

@@ -1,11 +1,10 @@
-const data ={
-    cpuItems:[
+const data = [
         {
-            id:"1",
+            id: 1,
             name: "Ryzen5-5600x",
             price: 199.00,
             image:"../../assets/ryzen5-5600.jpg",
-        }, 
+        },
         // {
         //     id:"2",
         //     name: "Ryzen7-5800",
@@ -32,7 +31,6 @@ const data ={
         // }
 
 
-    ]
-};
+    ];
 
 export default data;
