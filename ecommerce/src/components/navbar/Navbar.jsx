@@ -4,15 +4,28 @@
 /* eslint-disable no-unused-expressions */
 import React, {useState} from 'react';
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
+import {Link} from 'react-router-dom';
 import logo from '../../assets/logo.png'
 import './navbar.css'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Menu = () => (
   <>
-    <p><a here="#home">Home</a></p>
-    <p><a here="#aboutUs">About Us</a></p>
-    <p><a here="#blog">Blog</a></p>
+    <p><a here="#home">About Us</a></p>
+
+    <Link to="/cpu" className='logo'>
+    <p><a here="#blog">CPU</a></p>
+    </Link>
+    
+    <Link to="/gpu" className='logo'>
+    <p><a here="#blog">GPU</a></p>
+    </Link>
+
+    <p><a here="#blog">MOBO</a></p>
+    
+
+    <p><a here="#blog">Contact</a></p>
+
   </>
 )
 
@@ -21,9 +34,11 @@ const Navbar = () => {
   return (
     <div className='pcf_navbar'>
       <div className='pcf_navbar-links'>
+        <Link to='/' className='home'>
         <div className='pcf_navbar-links_logo'>
           <img src={logo} alt='logo' />
         </div>
+        </Link>
         <div className='pcf_navbar-links_container'>
         <Menu />
         </div>
