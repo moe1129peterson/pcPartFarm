@@ -1,11 +1,12 @@
 /* eslint-disable no-unused-expressions */
 import React from 'react';
 import './feature.css'; 
+// import bootstrap from "bootstrap"
 
-const Feature = () => {
+const Contact = () => {
   return (
-    <div>Feature</div>
+    <div>Contact</div>
   )
 }
 
-export default Feature
+export default Contact

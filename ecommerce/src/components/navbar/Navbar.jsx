@@ -23,9 +23,9 @@ const Menu = () => (
 
     <p><a here="#blog">MOBO</a></p>
     
-
-    <p><a here="#blog">Contact</a></p>
-
+    <Link to="/contact">
+    <p><a here="#contact">Contact</a></p>
+    </Link>
   </>
 )
 
@@ -45,7 +45,10 @@ const Navbar = () => {
       </div>
       <div className='pcf_navbar-sign'>
         <p>Sign in</p>
-        <button type='button'>Cart</button>
+      <Link to ='/cart' className='cart'></Link>
+      <div className='pcf_navbar-cart'>
+        <p>Cart</p>
+      </div>
       </div>
       <div className='pcf_navbar-menu'>
       {toggleMenu

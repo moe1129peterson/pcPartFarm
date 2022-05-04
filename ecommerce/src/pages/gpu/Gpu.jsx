@@ -19,7 +19,7 @@ const Gpu = () => {
           <h2 className='gpu-listTitle'>RTX 3060</h2>
           <h3 className='gpu-listPrice'>$329.00</h3>
           <p className='gpu-listText'>The Nvidia RTX 3060</p>
-          <button type="button" className="btn btn-primary">Primary</button>
+          <button className='add-button'>Add to Cart</button>
           
         </div>
 
@@ -28,7 +28,7 @@ const Gpu = () => {
           <h2 className='gpu-listTitle'>RTX 3060ti</h2>
           <h3 className='gpu-listPrice'>$399.00</h3>
           <p className='gpu-listText'>The Nvidia RTX 3060</p>
-          <button type="button" class="btn btn-primary">Primary</button>
+          <button className='add-button'>Add to Cart</button>
         </div>
 
         <div className='gpu-list'>
@@ -36,7 +36,7 @@ const Gpu = () => {
           <h2 className='gpu-listTitle'>RTX 3070</h2>
           <h3 className='gpu-listPrice'>$499.00</h3>
           <p className='gpu-listText'>The Nvidia RTX 3060</p>
-          <button type="button" class="btn btn-primary">Primary</button>
+          <button className='add-button'>Add to Cart</button>
         </div>
 
         <div className='gpu-list'>
@@ -44,7 +44,7 @@ const Gpu = () => {
           <h2 className='gpu-listTitle'>RTX 3080</h2>
           <h3 className='gpu-listPrice'>$699.00</h3>
           <p className='gpu-listText'>The Nvidia RTX 3060</p>
-          <button type="button" class="btn btn-primary">Primary</button>
+          <button className='add-button'>Add to Cart</button>
         </div>
 
         <div className='gpu-list'>
@@ -52,7 +52,7 @@ const Gpu = () => {
           <h2 className='gpu-listTitle'>RTX 3090</h2>
           <h3 className='gpu-listPrice'>$1499.99</h3>
           <p className='gpu-listText'>The Nvidia RTX 3060</p>
-          <button type="button" class="btn btn-primary">Primary</button>
+          <button className='add-button'>Add to Cart</button>
         </div>
 
         <div className='gpu-list'>
@@ -60,7 +60,7 @@ const Gpu = () => {
           <h2 className='gpu-listTitle'>USED RTX 3060</h2>
           <h3 className='gpu-listPrice'>$259.00</h3>
           <p className='gpu-listText'>The Nvidia RTX 3060</p>
-          <button type="button" class="btn btn-primary">Primary</button>
+          <button className='add-button'>Add to Cart</button>
         </div>
 
         <div className='gpu-list'>
@@ -68,7 +68,7 @@ const Gpu = () => {
           <h2 className='gpu-listTitle'>USED RTX 3060ti</h2>
           <h3 className='gpu-listPrice'>$329.00</h3>
           <p className='gpu-listText'>The Nvidia RTX 3060</p>
-          <button type="button" class="btn btn-primary">Primary</button>
+          <button className='add-button'>Add to Cart</button>
         </div>
 
         <div className='gpu-list'>
@@ -76,7 +76,7 @@ const Gpu = () => {
           <h2 className='gpu-listTitle'>USED RTX 3070</h2>
           <h3 className='gpu-listPrice'>$419.00</h3>
           <p className='gpu-listText'>The Nvidia RTX 3060</p>
-          <button type="button" class="btn btn-primary">Primary</button>
+          <button className='add-button'>Add to Cart</button>
         </div>
 
       

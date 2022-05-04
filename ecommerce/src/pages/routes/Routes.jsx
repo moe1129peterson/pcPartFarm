@@ -1,17 +1,21 @@
-import React from 'react'; 
-import Cpu from '../cpu/Cpu';
-import {Route, Switch} from "react-router-dom"; 
+// import React from 'react'; 
+// import Cpu from '../cpu/Cpu';
+// import Cart from '../cart/Cart'
+// import {Route, Switch} from "react-router-dom"; 
 
-const Routes = ({cpuItems}) => {
-    return(
-        <div>
-            <Switch>
-                <Route path='/' exact>
-                    <Cpu cpuItems={cpuItems} />
-                </Route>
-            </Switch>
-        </div>
-    )
-}
+// const Routes = ({cpuItems, cartItems, handleAddCpu}) => {
+//     return(
+//         <div>
+//             <Switch>
+//                 <Route path='/' exact>
+//                     <Cpu cpuItems={cpuItems} handleAddCpu={handleAddCpu}/>
+//                 </Route>
+//                 <Route path='/cart' exact>
+//                     <Cart cartItems={cartItems} handleAddCpu={handleAddCpu}/>
+//                 </Route>
+//             </Switch>
+//         </div>
+//     )
+// }
 
-export default Routes; 
+// export default Routes; 
