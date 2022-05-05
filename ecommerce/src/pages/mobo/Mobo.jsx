@@ -2,7 +2,7 @@
 import React from 'react';
 import './mobo.css'; 
 import mobo1 from '../../assets/mobo1.jpg';
-import mobo2 from '../../assets/mobo2.jpg';
+// import mobo2 from '../../assets/mobo2.jpg';
 import mobo3 from '../../assets/mobo3.jpg';
 import mobo4 from '../../assets/mobo4.jpg';
 
