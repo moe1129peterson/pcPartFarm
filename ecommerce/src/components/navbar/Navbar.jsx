@@ -11,8 +11,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Menu = () => (
   <>
-    <p><a here="#home">About Us</a></p>
-
     <Link to="/cpu" className='logo'>
     <p><a here="#blog">CPU</a></p>
     </Link>
@@ -20,9 +18,10 @@ const Menu = () => (
     <Link to="/gpu" className='logo'>
     <p><a here="#blog">GPU</a></p>
     </Link>
-
+    <Link to="/mobo" className='logo'>
     <p><a here="#blog">MOBO</a></p>
-    
+    </Link>
+
     <Link to="/contact">
     <p><a here="#contact">Contact</a></p>
     </Link>

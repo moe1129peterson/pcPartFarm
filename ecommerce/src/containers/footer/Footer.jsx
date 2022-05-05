@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <div>
       <div className='pcf_footer section-padding'>
-        <div className='pcf_footer-heading'>
-          <h1 className='pcf_text'>Do you want to subscribe out news?</h1>
-        </div>
+
+        <div className='footer-text' href="https://github.com/moe1129peterson">PC Part Farm LLC</div>
+          
       </div>
     </div>
   )

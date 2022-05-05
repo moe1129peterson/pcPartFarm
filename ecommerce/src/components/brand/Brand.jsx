@@ -29,7 +29,7 @@ const Brand = () => {
 
   return (
     <div className='container_review'>
-      <h1 className='review'>Review</h1>
+      <h1 className='review'></h1>
       <div className='review_wrap'>
         <SwitchTransition>
           <CSSTransition>

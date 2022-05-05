@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import data from '../../ecommerce/src/assets/data/cpu'
 import {Footer, Blog, Possibility, Feature, Header} from './containers';
 import {CTA, Brand, Navbar} from './components';
-import {Cpu, Gpu, Cart, Routes, Contact} from './pages';
+import {Cpu, Gpu, Mobo, Cart, Routes, Contact} from './pages';
 import './App.css'
 import { MdProductionQuantityLimits } from 'react-icons/md';
 
@@ -50,16 +50,18 @@ const App = () => {
             <Route path='/gpu'>
               <Gpu />
             </Route >
+            <Route path='/mobo'>
+              <Mobo />
+            </Route >
             <Route path='/cart' exact>
               <Cart cartItems={cartItems}/>
             </Route>
-            {/* <Route path='/contact'>
+            <Route path='/contact'>
               <Contact/>
-            </Route> */}
+            </Route>
           </Switch>
         </div>
         {/* <Review /> */}
-        
         <Brand />
         <Footer />
       </div>

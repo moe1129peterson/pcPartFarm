@@ -25,7 +25,7 @@ const Blog = () => {
       </div>
       </Link>
       
-      <Link>
+      <Link to="/mobo" className='logo'>
       <div className='pcf-list'>
         <img src={MOBO} className='pcf_product-img' alt='mobo' />
       </div>
